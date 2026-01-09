@@ -4,20 +4,17 @@
 
 /* src/app/globals.css  (append to yours) */
 :root {
- --primary: #a66cec;    /* vibrant lavender/purple */
-  --accent:  #d26cec;    /* metallic gold */
-  --bg:      #f9f7fb;    /* soft lavender-tinted white */
-  --bg-2:    #fdeb9b;    /* gentle lavender wash */
-  --fg:      #2d2d2d;    /* dark gray for text */
-  --muted:   #9b67cc;    /* muted warm gray */
-  --radius:  9999px;
-
-  --band-1:  #9b5de5;    /* lavender band */
-  --band-2:  #d4af37;    /* gold band */
-
-  --text-1: #2d2d2d;     /* primary text */
-  --text-2: white;       /* inverted text */
-  --text-accent: #d4af37;/* gold as text accent */
+ --primary: #cf31ff;   /* neon green */
+  --accent:  #d10088;   /* magenta */
+  --bg:      #181818; 
+  --bg-2    : #7300a0;
+  --fg:      #e5e7eb;   /* light gray text */
+  --muted:   #9ca3af;
+  --band-1:  #d10088;
+  --band-2:  #d10088;   /* neon violet for contrast */
+  --text-1: white;
+  --text-2: white;
+  --text-accent: black;
 }
 
 /* Presets */
