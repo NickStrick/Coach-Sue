@@ -40,9 +40,9 @@ const email = "sftbllcoach@gmail.com";
 export const mockSiteConfig: SiteConfig = {
   theme: { preset: "sue", radius: "xl" },
   meta: {
-    title: "Softball Science — Coaching by Sue Stricker",
+    title: "Softball Science ,  Coaching by Sue Stricker",
     description:
-      "Softball Science coaching and clinics led by Sue Stricker — former professional player, coach, and author. Private lessons, team training, and hitting development.",
+      "Softball Science coaching and clinics led by Sue Stricker ,  former professional player, coach, and author. Private lessons, team training, and hitting development.",
     favicon: logoSoftballScience.src,
   },
   sections: [
@@ -97,7 +97,7 @@ export const mockSiteConfig: SiteConfig = {
         {
           title: "New clinic dates posted",
           body:
-            "Fresh clinic schedules and lesson availability are posted on the Softball Science site. Check often—spots fill quickly.",
+            "Fresh clinic schedules and lesson availability are posted on the Softball Science site. Check often, spots fill quickly.",
           link: website,
           imageUrl: clinic.src,
           imageSize: "md",
@@ -115,7 +115,7 @@ export const mockSiteConfig: SiteConfig = {
         {
           title: "Team lessons available",
           body:
-            "Bring Softball Science training to your team—practice plans, hitting, and skill development tailored to your goals.",
+            "Bring Softball Science training to your team, practice plans, hitting, and skill development tailored to your goals.",
           link: "#contact",
           imageUrl: cagePractice.src,
           imageSize: "md",
@@ -133,7 +133,13 @@ export const mockSiteConfig: SiteConfig = {
       type: "about",
       title: "Hi, I'm Sue Stricker",
       body:
-        "Founder and creator of Softball Science, Sue Stricker is a former professional softball player and coach. With over 20 years of experience in coaching the sport, she has dedicated her career to training and developing young athletes. Sue has authored several books on softball techniques and strategies, and her insights have been featured in numerous sports publications and broadcasts. She continues to inspire and educate through her work at Softball Science.\n\nCoach Sue Stricker has been coaching the game for over 20 years. She is currently the Head Coach for the Wasco Daimonds 14 U team, and the General Manager at Bring It Sports where she gives private, small group, and team lessons. Her CUDIT Concentric Hitting lessons bring her hitters in the area to a level like no other.\n\nSue has coached area teams such as the Wasco Diamonds 14U (Head Coach), Homer Hawks Gold 16U and 18U (Assistant Coach), The Northern Illinois Lightning (Head Coach) 14U and 16U, and the St. Charles Angels (Head Coach). She has also coached Varsity and J.V. High School teams.\n\nSue has coached every skill level in softball. From a beginner travel team at 10U playing USSSA to a Gold Level PGF team at 18U which played in both ASA and PGF. She has helped bring her teams to Nationals at all levels on several occasions and placing in the semi-finals and finals, with the last team she brought to Nationals winning 1st place.\n\nCoach has also helped many of her players move onto the College Level. She has helped place players on teams at the D1, D2, D3 and NAIA levels. Some of these schools include Illinois State University, University of Missouri St. Louis, IUPUI, Purdue Calumet, and Clarke University.\n\nSue is currently the Certified CUDIT Concentric Hitting Coach of four teams and gives lessons to athletes of all ages. Be ready to transform your swing and mindset when working with Coach Sue Stricker!",
+        `Sue Stricker, founder of Softball Science, is a former professional softball player and coach with over 20 years of coaching experience. She is currently the Head Coach of the Wasco Diamonds 14U and General Manager at Bring It Sports, where she provides private, small-group, and team instruction. A Certified CUDIT Concentric Hitting Coach, Sue is known for elevating hitters through her advanced, results-driven approach.
+
+Sue has coached at every competitive level, from 10U beginners to 18U Gold-level PGF teams, and has led multiple teams to National tournaments, including a recent National Championship. Her coaching career includes leadership roles with the Wasco Diamonds, Northern Illinois Lightning, St. Charles Angels, Homer Hawks Gold, and Varsity and JV high school teams.
+
+She has helped numerous athletes advance to the college level (D1, D2, D3, and NAIA), with players attending schools such as Illinois State University, University of Missouri–St. Louis, IUPUI, Purdue Calumet, and Clarke University. An accomplished author and featured contributor to softball publications and broadcasts, Sue continues to inspire athletes of all ages through her work.
+
+Be ready to transform your swing and mindset with Coach Sue Stricker.`,
       imageUrl: sueCoach.src,
       bullets: [
         "Former professional softball player",
@@ -298,7 +304,7 @@ export const mockSiteConfig: SiteConfig = {
         },
         {
           quote:
-            "We saw improvement in just a few sessions—better mechanics, better approach, and a more confident player.",
+            "We saw improvement in just a few sessions, better mechanics, better approach, and a more confident player.",
           name: "Parent",
           role: "Travel ball family",
         },
@@ -378,7 +384,7 @@ export const mockSiteConfig: SiteConfig = {
       id: "contact",
       type: "contact",
       title: "Contact Coach Sue",
-      address: "Training locations vary — see Softball Science for current schedules.",
+      address: "Training locations vary ,  see Softball Science for current schedules.",
       phone: { label: phoneLabel, href: phoneHref },
       email,
       backgroundUrl: yellowJeep.src,
@@ -390,7 +396,7 @@ export const mockSiteConfig: SiteConfig = {
     },
 
     // ======================
-    // SHARE (QR) — great for networking in person
+    // SHARE (QR) ,  great for networking in person
     // ======================
     {
       visible: true,
