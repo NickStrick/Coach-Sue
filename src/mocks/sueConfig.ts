@@ -35,6 +35,7 @@ import testimonial3 from "../../public/sue/testimonial2.png";
 import testimonial2 from "../../public/sue/testimonial3.jpg";
 
 const website = "https://www.softball-science.com";
+const bookSession = "https://bringitsports.ezfacility.com/Sessions"
 
 // TODO: Replace with Sue’s real contact info when you have it
 const phoneHref = "tel:16303361553";
@@ -170,7 +171,7 @@ Be ready to transform your swing and mindset with Coach Sue Stricker.`,
           description:
             "One-on-one coaching focused on mechanics, mindset, and repeatable results.",
           features: ["Personalized plan", "Video feedback (when available)", "All ages & levels"],
-          cta: { label: "View availability", href: website },
+          cta: { label: "View availability", href: bookSession },
           featured: true,
           badge: "Most requested",
         },
@@ -181,7 +182,7 @@ Be ready to transform your swing and mindset with Coach Sue Stricker.`,
           description:
             "High reps, high intent. Great for athletes who want competitive energy and coaching attention.",
           features: ["2–4 athletes", "Skill stations", "Hitting + fielding options"],
-          cta: { label: "See schedules", href: website },
+          cta: { label: "See schedules", href: bookSession },
         },
         {
           name: "Team Training",
@@ -397,6 +398,7 @@ Be ready to transform your swing and mindset with Coach Sue Stricker.`,
         { label: "Softball Science", href: website },
         { label: "Instagram", href: "https://instagram.com/sftbllcoach" },
         { label: "Facebook", href: "https://facebook.com/sftbllcoach" },
+        { label: "Book a lesson", href: bookSession },
       ],
     },
 
@@ -428,9 +430,8 @@ Be ready to transform your swing and mindset with Coach Sue Stricker.`,
           title: "Explore",
           links: [
             { label: "Home", href: "/" },
-            { label: "Announcements", href: "#announcements" },
             { label: "Founder", href: "#about" },
-            { label: "Clinics & Lessons", href: "#clinics" },
+            { label: "Lessons", href: "#clinics" },
             { label: "Books", href: "#books" },
             { label: "Gallery", href: "#gallery" },
           ],
@@ -441,6 +442,7 @@ Be ready to transform your swing and mindset with Coach Sue Stricker.`,
             { label: "Softball-Science.com", href: website },
             { label: `Call ${phoneLabel}`, href: phoneHref },
             { label: "Email", href: `mailto:${email}` },
+             { label: "Book a lesson", href: bookSession },
           ],
         },
       ],
