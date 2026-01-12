@@ -30,6 +30,10 @@ import logoSoftballScience from "../../public/sue/logo-softball-science.png";
 import logoBringItSports from "../../public/sue/bring-it.jpg";
 import logoChampions from "../../public/sue/champion.png";
 
+import testimonial1 from "../../public/sue/testimonial1.png";
+import testimonial3 from "../../public/sue/testimonial2.png";
+import testimonial2 from "../../public/sue/testimonial3.jpg";
+
 const website = "https://www.softball-science.com";
 
 // TODO: Replace with Sue’s real contact info when you have it
@@ -56,13 +60,11 @@ export const mockSiteConfig: SiteConfig = {
       logoText: "Sue Stricker",
       links: [
         { label: "Home", href: "/" },
-        { label: "Announcements", href: "#announcements" },
         { label: "Founder", href: "#about" },
-        { label: "Clinics & Lessons", href: "#clinics" },
+        { label: "Lessons", href: "#clinics" },
         { label: "Books", href: "#books" },
         { label: "Gallery", href: "#gallery" },
-        { label: "Testimonials", href: "#testimonials" },
-        { label: "Partners", href: "#partners" },
+        { label: "Reviews", href: "#testimonials" },
         { label: "Contact", href: "#contact" },
       ],
       cta: { label: "Visit Softball-Science.com", href: website },
@@ -299,20 +301,23 @@ Be ready to transform your swing and mindset with Coach Sue Stricker.`,
         {
           quote:
             "Coach Sue simplified my swing and helped me feel confident at the plate. The mindset work changed everything.",
-          name: "Athlete",
+          name: "Sherry Kwiatkowski Majkszak ",
           role: "High school hitter",
+          avatarUrl: testimonial1.src
         },
         {
           quote:
             "We saw improvement in just a few sessions, better mechanics, better approach, and a more confident player.",
-          name: "Parent",
+          name: "Katy Cahill-Sujack ",
           role: "Travel ball family",
+          avatarUrl: testimonial2.src
         },
         {
           quote:
             "High intensity, clear cues, and a coach who genuinely cares. Our team left sharper and more focused.",
-          name: "Coach",
-          role: "14U head coach",
+          name: "Tyler Munoz",
+          role: "Head Coach - Champion Craft Coaching",
+          avatarUrl: testimonial3.src
         },
       ],
       style: {
