@@ -18,9 +18,9 @@ const geistMono = Geist_Mono({ variable: "--font-geist-mono", subsets: ["latin"]
 import { mockSiteConfig } from "@/mocks/sueConfig";
 
 export const metadata: Metadata = {
-  title: "CM Florals — Floral Design by Carole Murray",
+  title: "Coach Sue Stricker",
   description:
-    "CM Florals creates joyful floral design for weddings, holidays, celebrations and everyday gifting across Chicago. Founded by Carole Murray.",
+    "Professional Softball coach with 40 years of experience helping athletes reach their full potential.",
 };
 
 
